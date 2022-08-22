@@ -1,0 +1,13 @@
+[user]
+	email = liammulh@gmail.com
+	name = Liam Mulhall
+	signingkey = DD094F5B4AEBAD86
+[core]
+	editor = nvim
+[commit]
+	gpgsign = true
+	template = ~/.config/git/commit-template
+[gpg]
+	program = gpg
+[init]
+	defaultBranch = main

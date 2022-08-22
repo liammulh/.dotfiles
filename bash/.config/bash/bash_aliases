@@ -1,0 +1,10 @@
+# For the aliases to work, you need the following in your `.bashrc`:
+# if·[·-f·~/.config/bash/bash_aliases·];·then
+# 	.·~/.config/bash/bash_aliases
+# fi↲
+
+alias ..="cd .."
+alias c="clear"
+alias l="ls -ahl"
+alias q="exit"
+alias v="nvim"
