@@ -5,7 +5,7 @@
 [core]
 	editor = nvim
 [commit]
-	gpgsign = true
+	gpgsign = false
 	template = ~/.config/git/commit-template
 [gpg]
 	program = gpg
