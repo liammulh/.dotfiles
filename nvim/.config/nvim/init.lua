@@ -52,6 +52,9 @@ vim.opt.textwidth = 72
 -- Gimme dat good spelling.
 vim.opt.spell = true
 
+-- Turn off text wrapping.
+vim.opt.wrap = false
+
 -- ====================================================================
 
 -- # Shortcuts
