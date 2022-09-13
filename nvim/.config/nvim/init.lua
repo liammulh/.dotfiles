@@ -56,7 +56,7 @@ vim.opt.spell = true
 
 -- # Shortcuts
 
--- Use space as a the leader key.
+-- Use space as the leader key.
 vim.g.mapleader = ' '
 
 -- ## One-Letter Stuff
