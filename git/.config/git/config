@@ -4,6 +4,7 @@
 	signingkey = DD094F5B4AEBAD86
 [core]
 	editor = nvim
+	excludesFile = ~/.config/git/gitignore
 [commit]
 	gpgsign = false
 	template = ~/.config/git/commit-template
