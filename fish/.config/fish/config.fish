@@ -3,6 +3,7 @@ if status is-interactive
     alias c="clear"
     alias l="exa --all --git --icons --long --tree --level=1 ."
     alias v="nvim"
+    alias q="exit"
     alias ..="cd .."
     fish_add_path /opt/homebrew/bin
 end
