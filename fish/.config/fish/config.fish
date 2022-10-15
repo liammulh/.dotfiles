@@ -5,5 +5,6 @@ if status is-interactive
     alias v="nvim"
     alias q="exit"
     alias ..="cd .."
+    alias python="python3"
     fish_add_path /opt/homebrew/bin
 end
