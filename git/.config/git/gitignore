@@ -1,1 +1,8 @@
+# Ignore JetBrains config directories.
 .idea
+
+# Ignore any to-do lists I add.
+TODO*
+TO-DO*
+todo*
+to-do*
