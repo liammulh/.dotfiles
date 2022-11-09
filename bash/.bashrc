@@ -8,5 +8,8 @@ alias python="python3"
 # Command line prompt.
 PS1="> "
 
+# No bells.
+bind 'set bell-style none'
+
 # Put path stuff here.
-export PATH=$PATH:$HOME/.cargo/bin:$HOME/.local/bin
+export PATH=$PATH:/opt/homebrew/bin:$HOME/.cargo/bin:$HOME/.local/bin:
