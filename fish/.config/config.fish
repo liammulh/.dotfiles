@@ -2,7 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
     alias c="clear"
     alias l="exa --all --git --icons --long --tree --level=1 ."
-    alias v="nvim"
+    alias v="vim"
     alias q="exit"
     alias ..="cd .."
     alias python="python3"
