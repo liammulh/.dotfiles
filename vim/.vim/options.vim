@@ -17,3 +17,7 @@ set colorcolumn=72
 " See https://vi.stackexchange.com/a/5844.
 set autoindent
 set smartindent
+
+" Put swap files somewhere sensible.
+set swapfile
+set dir=~/.vim/swap
