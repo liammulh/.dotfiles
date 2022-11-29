@@ -9,3 +9,6 @@ TODO*
 TO-DO*
 todo*
 to-do*
+
+# Ignore macOS stuff.
+.DS_Store

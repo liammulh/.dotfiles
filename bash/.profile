@@ -1,18 +1,19 @@
-alias ..="cd .."
-alias c="clear"
-alias l="ls -ahl"
-alias q="exit"
-alias v="vim"
-alias python="python3"
-
-# Command line prompt.
-PS1="> "
-
-# No bells.
-bind 'set bell-style none'
-
 # Set default editor.
-export EDITOR=
+# See https://unix.stackexchange.com/a/73486.
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
-# Put path stuff here.
-export PATH=$PATH:/opt/homebrew/bin:$HOME/.cargo/bin:$HOME/.local/bin:
+# Homebrew.
+export PATH=$PATH:/opt/homebrew/bin
+
+# Rust's Cargo package manager.
+export PATH=$PATH:$HOME/.cargo/bin
+
+# Not sure why I need ~/.local/bin.
+export PATH=$PATH:$HOME/.local/bin
+
+# My scripts.
+export PATH=$PATH:$HOME/,/bin
+
+# Something for Haskell?
+[ -f "/Users/liam/.ghcup/env" ] && source "/Users/liam/.ghcup/env" # ghcup-env
