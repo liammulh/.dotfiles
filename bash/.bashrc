@@ -10,3 +10,6 @@ PS1="> "
 
 # No bells.
 bind 'set bell-style none'
+
+# Add environment variables.
+source ~/.profile
